@@ -4,9 +4,11 @@ Il programma stammpa la somma di tutti i numeri */
 let somma = 0
 
 for (let i = 0; i < 10; i++) {
-  const numero = prompt('Inserisci un numero:')
+  const numero = Number(prompt('Inserisci un numero:'))
+  console.log(numero);
   
-  somma += +numero
+  
+  somma = somma + numero
 }
 
 console.log(somma);
