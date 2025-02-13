@@ -5,7 +5,7 @@ const word1 = prompt('Inserisci prima parola')
 const word2 = prompt('Inserisci seconda parola')
 
 if (word1.length > word2.length) {
-  console.log(`La parola ${word1} è più lunga di ${word2}`);
+  console.log(`La parola ${word2} è più lunga di ${word1}`);
 
 } else if (word1.length < word2.length) {
   console.log(`La parola ${word1} è più corta di ${word2}`);
